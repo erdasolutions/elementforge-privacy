@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElementForge Privacy Policy</title>
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --secondary-color: #e9ecef;
+            --accent-color: #ff6b6b;
+            --text-color: #333;
+            --light-text: #666;
+            --bg-color: #fff;
+            --border-color: #ddd;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        
+        .logo-icon {
+            font-size: 24px;
+            margin-right: 10px;
+            color: var(--primary-color);
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        
+        .date {
+            color: var(--light-text);
+            font-style: italic;
+            margin-top: 5px;
+        }
+        
+        section {
+            margin-bottom: 25px;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--secondary-color);
+            padding-bottom: 5px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: var(--light-text);
+            font-size: 0.9em;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+        
+        .email-btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+        
+        .email-btn:hover {
+            background-color: #3a5985;
+        }
+        
+        .print-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+        }
+        
+        .print-btn:hover {
+            background-color: #3a5985;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        @media print {
+            .print-btn {
+                display: none;
+            }
+            
+            body {
+                padding: 0;
+                font-size: 12pt;
+            }
+            
+            header, section, footer {
+                margin-bottom: 15pt;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="logo-icon">✂️</span>
+            <h1>ElementForge</h1>
+        </div>
+        <h2>Privacy Policy</h2>
+        <p class="date">Last Updated: March 23, 2025</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>This Privacy Policy describes how ElementForge ("we", "our", or "extension") collects, uses, and handles your information when you use our browser extension. ElementForge is designed to extract and transform website elements into HTML and CSS code while respecting your privacy.</p>
+        </section>
+        
+        <section>
+            <h2>Data Collection</h2>
+            <p>ElementForge collects the following limited data:</p>
+            <ul>
+                <li><strong>Website Content</strong>: When you select elements on a webpage, ElementForge temporarily processes the HTML structure and CSS styling of those elements. This happens only when you explicitly choose to extract elements.</li>
+                <li><strong>User Activity</strong>: ElementForge records your interactions with the extension interface, such as which extraction options you select.</li>
+                <li><strong>User Preferences</strong>: We store your selected extraction settings locally in your browser to provide a consistent experience.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Data Usage</h2>
+            <p>All data collected by ElementForge is:</p>
+            <ul>
+                <li>Used solely for providing the core functionality of the extension</li>
+                <li>Processed entirely within your browser</li>
+                <li>Never transmitted to any external servers or third parties</li>
+                <li>Temporary, except for your preferences which are stored locally</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Data Storage</h2>
+            <ul>
+                <li>ElementForge uses browser local storage to save your preferences and settings</li>
+                <li>Extracted element data is only temporarily stored in memory while you're using the extension</li>
+                <li>No data is stored on external servers</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Third-Party Services</h2>
+            <p>ElementForge uses the following external resources for its user interface only:</p>
+            <ul>
+                <li>Font Awesome (from cdnjs.cloudflare.com): Used for icons in the extension interface</li>
+                <li>Google Fonts: Used for typography in the extension interface</li>
+            </ul>
+            <p>These resources are only used to render the extension's own interface and are not used to process any user data.</p>
+        </section>
+        
+        <section>
+            <h2>User Control and Rights</h2>
+            <p>You have complete control over:</p>
+            <ul>
+                <li>Which elements you select for extraction</li>
+                <li>When the extension is activated</li>
+                <li>What settings are used for extraction</li>
+                <li>Clearing your saved preferences through browser settings</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+        </section>
+        
+        <section>
+            <h2>Contact</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+            <a href="mailto:erda.solutions.il@gmail.com" class="email-btn" id="contactEmail">erda.solutions.il@gmail.com</a>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 ElementForge. All rights reserved.</p>
+    </footer>
+    
+    <button class="print-btn" id="printButton" title="Print Privacy Policy">🖨️</button>
+    
+    <script>
+        // Simple print functionality
+        document.getElementById('printButton').addEventListener('click', function() {
+            window.print();
+        });
+        
+        // You can replace this with your actual email
+        document.getElementById('contactEmail').addEventListener('click', function(e) {
+            // If you want to customize the email subject and body
+            if (this.href.includes('example.com')) {
+                e.preventDefault();
+                alert('Please replace with your actual email address before publishing.');
+            }
+        });
+        
+        // Add current year dynamically
+        document.addEventListener('DOMContentLoaded', function() {
+            const footerText = document.querySelector('footer p');
+            footerText.innerHTML = footerText.innerHTML.replace('2025', new Date().getFullYear());
+        });
+    </script>
+</body>
+</html> 
